@@ -1,0 +1,15 @@
+{
+  "name": "commonform-introduction",
+  "description": "a Common Form introducing folks to Common Forms",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "devDependencies": {
+    "commonform-cli": "^0.5.1"
+  },
+  "license": "CC0-1.0",
+  "main": "introduction.json",
+  "repository": "commonform/commonform-introduction",
+  "scripts": {
+    "prepublish": "commonform render --format native < introduction.commonform > introduction.json"
+  }
+}
